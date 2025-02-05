@@ -119,7 +119,30 @@ html{
   background-color: var(--black);
 }
 /*//_-------------{  Common Style for Full-Website  }---------------_*/
-/*g_----------------{  Scroll-up Button style  }---------------- */
+/*g_----------------{  Header section style  }---------------- */
+
+/*O_----------------{  Banner Section style  }---------------- */
+.banner {
+    width: 100vw; /* Full viewport width */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*----{ For Extra space remove }----*/
+}
+.carousel {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.carousel-item {
+    width: 100%;
+}
+.carousel-item img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    display: block;  /*----{ For Extra space remove }-----*/
+}
+/*O_----------------{  Scroll-up Button style  }---------------- */
 body {
     font-family: Arial, sans-serif;
     height: 2000px;
@@ -167,7 +190,8 @@ body {
     border-top: 2px solid var(--white);
     transform: rotate(45deg);
 }
-/*//_----------------{  Scroll-up Button style  }---------------- */
+/*g_----------------{  Header section style  }---------------- */
+
 /*g_----------------{  Footer style  }---------------- */
 
 
