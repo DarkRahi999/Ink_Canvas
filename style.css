@@ -195,6 +195,49 @@ html{
 #btn-group{
   margin-left: 38%;
 }
+/* - card common style */
+.card-pera{
+  font-family: var(--font-3);
+  color: var(--gray-700);
+}
+.del-taka{
+  color: var(--gray-700);
+  font-size: 24px;
+  font-style: italic;
+}
+.taka{
+  font-size: 36px;
+}
+.btn-g{
+  width: 98%;
+}
+.btn-g .btn{
+  margin: 0px 2%;
+  width: 45%;
+}
+/* FAQ section  */
+#my-btn-1{
+  border-radius: 20px;
+  width: 100%;
+}
+.btn-div{
+  width: 20%;
+  margin: auto;
+}
+aside{
+  background-image: url('../Aminul-bhai/Assets/extra-img/background-cover.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 60vh;
+}
+.aside-items{
+  color: var(--black);
+  display: flex;
+  align-items: center;
+  height: 60vh;
+}
 /*//_--------------{  Extra Section Style  }-------------_*/
 /*G_--------------{  Start Footer Section Style  }---------------_*/
 footer{
