@@ -141,6 +141,10 @@ html{
 }
 /*//_--------------{  Header Section Style  }--------------_*/
 /*G_--------------{  Start Extra Section Style  }---------------_*/
+/*Y_-----------------{  Home Page Style  }------------------_*/
+.heading{
+  font-size: 40px;
+}
 /*O_----------------{  Cover Photo style  }---------------- */
 .about-banner img{
   height: 350px;
