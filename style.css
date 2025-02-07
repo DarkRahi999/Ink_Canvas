@@ -232,7 +232,7 @@ html{
 }
 /*O_-------------{ aside section style }-------------- */
 aside{
-  background-image: url('../Aminul-bhai/Assets/extra-img/background-cover.jpg');
+  background-image: url('./Assets/extra-img/background-cover.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -247,6 +247,44 @@ aside{
 }
 /*g_----------------{  Product page style  }---------------- */
 /*g_----------------{  Product Details page style  }---------------- */
+/* --=---{ 1st col style}------- */ 
+.bg-gray{
+  background-color: var(--gray-100);
+}
+.detalis img{
+  transition: 0.3s;
+}
+.detalis img:hover{
+  transform: scale(1.2);
+}
+/* --=---{ 2nd col style}------- */ 
+.product-details h6{
+  color: var(--gray-700);
+}
+.product-details .text-italic{
+  font-style: italic;
+  color: var(--gray-900);
+  padding: 4px;
+  font-size: 18px;
+}
+.w-35{
+  width: 35%;
+}
+/* --=---{ 3rd col style}------- */ 
+.description p{
+  font-family: var(--font-1) !important;
+  font-size: 14px;
+  color: var(--gray-800);
+}
+.float-left{
+  float: right;
+}
+.gray-pera{
+  font-size: 18px;
+  /* color: var(--gray-800); */
+}
+
+
 
 /*g_----------------{  Contact Us page style  }---------------- */
 .contact-bg{
